@@ -29,6 +29,11 @@ a {
 }
 .header-items-link {
   color: #2e2f42;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .header-items-link:hover {
   color: #404bbf;
@@ -39,13 +44,8 @@ a {
 .header {
   background: #fff;
 }
-.header-items {
-  color: #2e2f42;
-
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.contacts {
+  font-style: normal;
 }
 .contacts-items-link {
   color: #434455;
