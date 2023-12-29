@@ -13,7 +13,7 @@ a {
   font-family: inherit;
 }
 .studio {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .header-logo {
   color: #2e2f42;
@@ -69,13 +69,20 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-
+.team {
+  background: var(--CLOUD, #f4f4fd);
+}
 .team-title {
   color: #2e2f42;
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-list {
+  background-color: #ffffff;
 }
 .team-subtitle {
   color: #2e2f42;
@@ -86,13 +93,20 @@ a {
 }
 .team-text {
   background: #fff;
+  color: var(--SLATE, #434455);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .portfolio {
   background: #fff;
 }
 .portfolio-title {
   color: #2e2f42;
-
+  text-align: center;
+  text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -116,7 +130,7 @@ a {
   background: #2e2f42;
 }
 .footer-link {
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
 
