@@ -48,7 +48,7 @@ a {
   height: 600px;
 }
 .business-title {
-  ccolor: #fff;
+  color: #ffffff;
   text-align: center;
   background-color: #4d5ae5;
   font-size: 56px;
@@ -58,13 +58,18 @@ a {
 }
 .business-button {
   color: #fff;
+  background-color: #4d5ae5;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
-.business-button:hover .business-button:focus {
+.business-button:hover {
+  background-color: #404bbf;
+}
+.business-button:focus {
   background-color: #404bbf;
 }
 .benifits {
