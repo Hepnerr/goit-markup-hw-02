@@ -3,6 +3,7 @@ body {
   color: #434455;
   font-weight: 500;
   line-height: 1.4;
+  background-color: #ffffff;
 }
 ul {
   list-style: none;
@@ -11,12 +12,12 @@ a {
   text-decoration: none;
   font-family: inherit;
 }
-.web {
+.studio {
   color: #4d5ae5;
 }
 .header-logo {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
@@ -24,7 +25,6 @@ a {
   text-transform: uppercase;
 }
 .header {
-  border-bottom: 1px solid #e7e9fc;
   background: #fff;
 }
 .header-items {
@@ -49,15 +49,13 @@ a {
 }
 .business-title {
   color: #fff;
-  text-align: center;
 
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 1.12px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .business-button {
-  border-radius: 4px;
   background: #4d5ae5;
   cursor: pointer;
 }
@@ -71,16 +69,9 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.benifits-text {
-  width: 264px;
-}
-.team {
-  width: 1440px;
-  height: 732px;
-}
+
 .team-title {
   color: #2e2f42;
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -88,14 +79,12 @@ a {
 }
 .team-subtitle {
   color: #2e2f42;
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .team-text {
-  border-radius: 0px 0px 4px 4px;
   background: #fff;
 }
 .portfolio {
@@ -103,13 +92,11 @@ a {
 }
 .portfolio-title {
   color: #2e2f42;
-  text-align: center;
 
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 .portfolio-subtitle {
   color: #2e2f42;
@@ -130,11 +117,11 @@ a {
 }
 .footer-link {
   color: #f4f4fd;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
+
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
